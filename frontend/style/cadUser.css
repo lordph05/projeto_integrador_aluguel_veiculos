@@ -17,7 +17,7 @@ html{
     justify-content: center;
     flex-direction: row;
 
-    background: #201b2c;
+   background: #201b2c;
 }
 
 .box{
@@ -33,16 +33,21 @@ html{
 .box h1{
     text-align: center;
 
+    margin-bottom: .9rem;
     font-size: 3vw;
     font-weight: bold;
     color: #77ffc0;
 }
-
-.box form > input{
+.box form label {
+    color: #FFF;
+}
+.box form label > input{
     padding: .5rem;
     width: 70%;
-    margin-top: .9rem;
+    margin: .9rem 0 .9rem 0;
     outline: none;
+
+    display: block;
 
     border: none;
     border-radius: 10px;
@@ -51,12 +56,9 @@ html{
     color: #FFF;
     box-shadow: 0px 10px 40px #00000056;
 }
-
-
-
-
-
-
+.box form label > input:checked{
+    background-color: #2b134b;
+}
 /* butons */
 .buttons{
     display: flex;
@@ -64,7 +66,7 @@ html{
     justify-content: center;
     text-align: center;
 
-    margin-top: 10px;
+    margin-top: 20px;
 }
 .buttons button{
     width: 30%;
@@ -77,6 +79,13 @@ html{
     color: #2b134b;
 
     margin-right: 20px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: #91cfb2;
+}
+.buttons a:hover{
+    background-color: #91cfb2;
 }
 .buttons a{
     text-decoration: none;
@@ -86,5 +95,10 @@ html{
     background-color: #77ffc0;
     border-radius: 15px;
 
-    color: #2b134b
+    color: #2b134b;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
