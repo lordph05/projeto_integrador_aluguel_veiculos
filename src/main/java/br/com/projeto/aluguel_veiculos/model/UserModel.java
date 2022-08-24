@@ -1,4 +1,4 @@
-package br.com.projeto.aluguel_veiculos.model;
+/*package br.com.projeto.aluguel_veiculos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -42,3 +42,4 @@ public class UserModel {
        private String senha;
        private String email;
 }
+*/

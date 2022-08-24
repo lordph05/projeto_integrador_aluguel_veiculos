@@ -1,4 +1,4 @@
-package br.com.projeto.aluguel_veiculos.model;
+/*package br.com.projeto.aluguel_veiculos.model;
 
 import java.sql.Date;
 import java.text.DecimalFormat;
@@ -36,3 +36,4 @@ public class AluguelModel {
     private String observacao;
     private DecimalFormat valorPago;
 }
+*/

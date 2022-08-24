@@ -1,0 +1,98 @@
+/* CSS GLOBAL */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: 'Roboto', sans-serif;
+
+}
+
+html{
+    font-size: 93.75%;
+}
+body{
+    height: 100vh;
+
+    background-color: #E4E9f7;
+}
+
+.sidebar .image img{
+    width: 50px;
+}
+.sidebar .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#name-user{
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 6px;  
+    color: #FFF;
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 230px;
+    
+    padding: 10px 14px;
+
+    background-color: #201b2c;
+}
+
+.sidebar .seach{
+    background-color: #2f2841;
+    border-radius: 15px;
+}
+.seach input{
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    background-color: #2f2841;
+}
+.bx-search-alt-2{
+    margin-left: 5px;
+}
+input{
+    border-radius: 15px;
+    color: #FFF;
+}
+.sidebar li {
+    height: 50px;
+    margin-top: 10px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.sidebar li > i{
+    margin-right: 15px;
+}
+.sidebar .bx{
+    width: 30px;
+}
+.sidebar ul li > a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 150ms;
+
+}
+.menu ul a:hover{
+    background-color: #2f2841;
+    border-radius: 7px;
+    font-weight: bold;
+    padding: 15px;
+    color: #000;
+}
