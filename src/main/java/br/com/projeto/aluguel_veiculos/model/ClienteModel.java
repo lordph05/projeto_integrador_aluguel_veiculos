@@ -1,4 +1,4 @@
-/*package br.com.projeto.aluguel_veiculos.model;
+package br.com.projeto.aluguel_veiculos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -17,7 +17,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @NoArgsConstructor
 
-@Table
+@Table(name = "cliente")
 @Entity
 
 public class ClienteModel {
@@ -27,11 +27,10 @@ public class ClienteModel {
 
 
     private Long id_cliente;
-    private String Nome;
+    private String nome;
     private String endereco;
     private String UF;
     private String telefone;
     private String cpf;
     private String email;
 }
-*/

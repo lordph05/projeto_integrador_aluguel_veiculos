@@ -1,4 +1,4 @@
-/*package br.com.projeto.aluguel_veiculos.repository;
+package br.com.projeto.aluguel_veiculos.repository;
 
 import java.util.List;
 
@@ -13,4 +13,3 @@ public interface UserRepository extends JpaRepository <UserModel, Long>{
     //TODOS OS USUÁRIOS
     //public List<UserModel> getAllUserModel();
 }
-*/

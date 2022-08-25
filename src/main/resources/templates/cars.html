@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" href="./image/carro.png">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,36 @@
     <title>Veiculos</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form  method="post">
+            <label for="placa"> Placa:
+                <input type="text" name="placa">
+            </label>
+            
+            <label for="fabricante"> Fabricante:
+                <input type="text" name="fabricante">
+            </label>
+
+            <label for="modelo"> Modelo: 
+                <input type="text" name="modelo" >
+            </label>
+
+            <label for="anoModelo"> Ano:
+                <input type="number" name="anoModelo" maxlength="4">
+            </label>
+
+            <label for="qtd_portas"> Portas:
+                <input type="number" name="qtd_portas">
+            </label>
+
+            <label for="acessorios">Acessorios:
+                <input type="text" name="acessorios">
+            </label>
+
+            <div class="buttons">
+                <button type="submit">Salvar</button>
+            </div>
+        </form>
+    </div>
 </body>
 </html>

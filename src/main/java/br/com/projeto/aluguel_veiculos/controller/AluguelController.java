@@ -1,4 +1,4 @@
-/*package br.com.projeto.aluguel_veiculos.controller;
+package br.com.projeto.aluguel_veiculos.controller;
 
 import org.springframework.stereotype.Controller;
 
@@ -6,4 +6,3 @@ import org.springframework.stereotype.Controller;
 public class AluguelController {
     
 }
-*/

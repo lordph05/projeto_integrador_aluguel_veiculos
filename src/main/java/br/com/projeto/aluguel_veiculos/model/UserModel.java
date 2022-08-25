@@ -1,4 +1,4 @@
-/*package br.com.projeto.aluguel_veiculos.model;
+package br.com.projeto.aluguel_veiculos.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -25,7 +25,7 @@ import lombok.Setter;
 @Entity
 
 //INFORMANDO QUE A CLASSE É UMA TABELA
-@Table
+@Table(name = "usuario")
 
 
 
@@ -36,10 +36,9 @@ public class UserModel {
        @GeneratedValue(strategy = GenerationType.IDENTITY)
        
        private Long id_user;
-       private String name;
+       private String nome;
        private String cargo;
        private String login;
        private String senha;
        private String email;
 }
-*/

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="../image/carro.png">
+    <link rel="icon" href="./image/carro.png">
    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,6 +13,42 @@
     <title>Cliente</title>
 </head>
 <body>
-    
+    <div class="container">
+        <form method="post">
+            <h1>
+                Cadastro de cliente
+            </h1>
+            <label for="nome"> Nome:
+                <input type="text" name="nome">
+            </label>
+
+            <label for="cpf"> CPF:
+                <input type="text" name="cpf">
+            </label>
+
+            <label for="telefone"> Telefone: 
+                <input type="tel" name="telefone" >
+            </label>
+
+            <label for="email"> E-mail:
+                <input type="email" name="email">
+            </label>
+            
+            <label for="endereco"> Endereço: 
+                <input type="text" name="endereco">
+            </label>
+
+            <label for="UF"> UF:
+                <select name="UF" id="estado">
+                    <option value="NULL">SELECIONE...</option>
+                </select>
+            </label>
+
+            <div class="buttons">
+                <button type="submit">Salvar</button>
+            </div>
+        </form>
+    </div>
+    <script src="./js/apiUF.js"></script>
 </body>
 </html>
