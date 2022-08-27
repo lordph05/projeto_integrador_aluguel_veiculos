@@ -8,14 +8,12 @@ async function api(){
     const data = await reponse.json();
 
     data.map((uf) => {
-        const option = document.createElement('option')
-        
-        console.log(uf)
+        const option = document.createElement('option');
+        option.value = uf.sigla;
 
-        option.innerHTML = uf.sigla;
+        option.innerHTML = uf.nome;
         loadingElement.appendChild(option);
-
     })
 }
 
-api()
+api();

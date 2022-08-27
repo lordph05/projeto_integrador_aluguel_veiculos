@@ -10,6 +10,7 @@ import br.com.projeto.aluguel_veiculos.repository.ClienteRepository;
 
 @Controller
 public class ClienteController {
+    
     @Autowired
     private ClienteRepository clienteRepo;
 
